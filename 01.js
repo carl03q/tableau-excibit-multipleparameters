@@ -10,7 +10,6 @@
  
   let measures_list = [];
   function refresh() {
-
     
     // Obtiene la lista de hojas de trabajo y agrega cada una a la página web como botones.
     $("#worksheets").text("");
@@ -32,18 +31,11 @@
       }
       console.log(measures_list)
       createCheckboxList(measures_list);
-      
       updateParameterUI(measures_list)  
-      
-
-      
+            
     });
     
-       
-
   }
-
-  
 
   function updateParameterUI (list) {
     
